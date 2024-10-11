@@ -10686,11 +10686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caiop\\Desktop\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectUniqueName": "C:\\Users\\caiop\\Desktop\\teste-doqr-backend\\EmployeeManagement.csproj",
       "projectName": "EmployeeManagement",
-      "projectPath": "C:\\Users\\caiop\\Desktop\\EmployeeManagement\\EmployeeManagement.csproj",
+      "projectPath": "C:\\Users\\caiop\\Desktop\\teste-doqr-backend\\EmployeeManagement.csproj",
       "packagesPath": "C:\\Users\\caiop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caiop\\Desktop\\EmployeeManagement\\obj\\",
+      "outputPath": "C:\\Users\\caiop\\Desktop\\teste-doqr-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caiop\\AppData\\Roaming\\NuGet\\NuGet.Config"

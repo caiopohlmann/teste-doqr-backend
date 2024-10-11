@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NPSziFCW+BI=",
+  "dgSpecHash": "9tKPH0/G5jE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\caiop\\Desktop\\EmployeeManagement\\EmployeeManagement.csproj",
+  "projectFilePath": "C:\\Users\\caiop\\Desktop\\teste-doqr-backend\\EmployeeManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caiop\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\caiop\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
