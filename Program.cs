@@ -8,8 +8,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowLocalhost3000",
-        builder => builder.WithOrigins("http://localhost:3000")
+    options.AddPolicy("AllowFrontend",
+        builder => builder.WithOrigins("https://teste-doqr-frontend-capu.vercel.app")
                           .AllowAnyHeader()
                           .AllowAnyMethod());
 });
@@ -23,6 +23,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.Urls.Add("http://0.0.0.0:5000");
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
@@ -30,7 +32,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowLocalhost3000");
+app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 
