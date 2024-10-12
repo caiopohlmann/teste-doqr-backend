@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 [ApiController]
-[Route("api/employees")]
+[Route("api/[controller]")]
 public class EmployeesController : ControllerBase
 {
     private readonly EmployeeContext _context;
